@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
 
+class Program
+{
+    static void Main()
+    {
+        SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - 1302204106");
+        video.PrintVideoDetails();
+
+        Console.ReadLine(); // supaya console ga ketutup
+    }
+}
